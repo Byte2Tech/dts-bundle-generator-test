@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+.history/
+
+# local env files
+.env.local
+.env.*.local
+
+# dependencies
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# production
+/dist
+
+# misc
+.DS_Store
+
+# umi
+/src/.umi
+/src/.ppx
+/src/.umi-production
+/src/.umi-test
+
+# Editor directories and files
+.idea
+
+# .vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.node
